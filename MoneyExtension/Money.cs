@@ -8,9 +8,11 @@ public static class Money
         {
             return 0;
         }
-        var str = amount.ToString().Replace(".", "").Replace(",", "");
+        var value = amount.ToString("N2")
+            .Replace(".", "")
+            .Replace(",", "");
 
-        _ = int.TryParse(str, out var result);
+        _ = int.TryParse(value, out var result);
 
         return result;
     }
