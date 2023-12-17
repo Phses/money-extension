@@ -2,7 +2,7 @@ name: Build and deploy package
 
 on:
   push:
-    banches:
+    branches:
       - main
 
 jobs:
