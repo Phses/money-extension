@@ -7,7 +7,7 @@
 
 		<PackageId>MoneyExtensionPedro</PackageId>
 		<License>MIT</License>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Authors>Pedro Souza</Authors>
 		<PackageDescription>Extension to convert decimal to integer</PackageDescription>
 		<RepositoryUrl>https://github.com/Phses/money-extension</RepositoryUrl>
